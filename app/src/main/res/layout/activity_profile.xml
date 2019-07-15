@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dip"
+            android:id="@+id/img_profile_pic"
+            android:src="@drawable/andela"
+            android:scaleType="centerInside"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Ian Okumu"
+            android:textSize="25sp"
+            android:padding="3dip"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="#9B9B9B"
+            android:layout_marginStart="10dip"
+            android:layout_marginEnd="10dip"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Track: "
+            android:textColor="#5C5C5C"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:textColor="#5C5C5C"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Country: "
+                android:textColor="#5C5C5C"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kenya"
+                android:textColor="#5C5C5C"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                android:textColor="#5C5C5C"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textColor="#5C5C5C"
+                android:layout_height="wrap_content"
+                android:text="okumu.otsembo@gmail.com"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content"
+                android:text="Phone Number:"
+                android:textColor="#5C5C5C"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:text="+254795279786"
+                android:textColor="#5C5C5C"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="Slack Username: "
+            android:textColor="#5C5C5C"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#5C5C5C"
+            android:layout_height="wrap_content"
+            android:text="@string/slack_username"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
